@@ -9,7 +9,7 @@ export default function Rectangle(){
     const [Celsius, setCelsius] = useState(0)
 
     
-    function Rankinecall(){
+    function rankineCall(){
         var result = (Celsius + 273.15) * 9/5
         setRankine(result)
     }
@@ -34,7 +34,7 @@ export default function Rectangle(){
 
 
 
-            <Button title="คำนวณ" onPress={() => Rankinecall()}/>
+            <Button title="คำนวณ" onPress={() => rankineCall()}/>
         </View>
 
     )
